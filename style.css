@@ -35,44 +35,6 @@ body{
      cursor: pointer;
   border-radius: 50px;
 }
-.pizzabutton{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, 370%);
-        font-family: Blippo, fantasy;
-      background-color: #151616;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-     text-decoration: none;
-      display: inline-block;
-      font-size: medium;
-      margin: 4px 2px;
-     cursor: pointer;
-  border-radius: 50px;
-}
-.buttonrus{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, 50%);
-        font-family: Blippo, fantasy;
-      background-color: #151616;
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-     text-decoration: none;
-      display: inline-block;
-      font-size: medium;
-      margin: 4px 2px;
-     cursor: pointer;
-  border-radius: 50px;
-}
 
 credit{
   font-size: medium;
@@ -81,71 +43,4 @@ credit{
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, 850%);
-}
-.seed{
-  font-size: medium;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%,550%);
-}
-
-  /*.slidecontainer {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-40%);
-  @media only screen{transform: translate(-50%,-10%);}
-}*/
-
-/* The slider itself */
-.slider {
-  text-align: center;
-  color:white;
-  -webkit-appearance: none;  /* Override default CSS styles */
-  appearance: none;
-  width: 100%; /* Full-width */
-  height: 25px; /* Specified height */
-  background: #2e2e2e; /* Grey background */
-  outline: none; /* Remove outline */
-  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-  transition: opacity .2s;
-  border-radius:50px;
-}
-
-/* Mouse-over effects */
-.slider:hover {
-  opacity: 1; /* Fully shown on mouse-over */
-}
-
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none; /* Override default look */
-  appearance: none;
-  width: 25px; /* Set a specific slider handle width */
-  height: 25px; /* Slider handle height */
-  background: #595959; /* Green background */
-  cursor: pointer; /* Cursor on hover */
-  border-radius:50px;
-}
-
-.slider::-moz-range-thumb {
-  width: 25px; /* Set a specific slider handle width */
-  height: 25px; /* Slider handle height */
-  background: #595959; /* Green background */
-  cursor: pointer; /* Cursor on hover */
-    border-radius:50px;
-}
-/*mis{
-  position: absolute;
-  top: 50%;
-  left: 50%; 
-  transform: translate(-50%, -300%);
-}*/
-input[type='number']::-webkit-inner-spin-button, 
-input[type='number']::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    margin: 0;
 }
